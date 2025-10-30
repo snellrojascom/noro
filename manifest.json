@@ -16,15 +16,9 @@
     {
       "id": "json",
       "label": "Inline JSON (YYYY-MM → URL)",
-      "type": "TEXTAREA",
+      "type": "TEXTINPUT",
       "defaultValue": "[{\"monthKey\":\"2025-07\",\"monthLabel\":\"July 2025\",\"doc\":\"https://docs.google.com/document/d/ID/preview\"}]"
     },
     { "id": "height", "label": "Iframe height (vh)", "type": "NUMBER", "defaultValue": 70 }
-  ],
-  "allowedDomains": [
-    "https://docs.google.com",
-    "https://*.googleusercontent.com",
-    "https://snellrojas.com",
-    "https://snellrojascom.github.io"
   ]
 }
