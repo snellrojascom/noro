@@ -2,11 +2,11 @@
   "name": "Month → Doc Switcher",
   "organization": "Snell",
   "description": "Dropdown selects a month and shows the embedded doc.",
-  "logoUrl": "https://snellrojas.com/favicon.ico",
+  "logoUrl": "https://snellrojascom.github.io/noro/favicon.ico",
   "supportUrl": "https://snellrojas.com",
   "privacyPolicyUrl": "https://snellrojas.com/privacy",
   "resources": [
-    { "type": "js", "url": "https://snellrojas.com/noro/index.js" }
+    { "type": "js", "url": "https://snellrojascom.github.io/noro/index.js" }
   ],
   "components": [
     { "id": "month_doc_switcher", "name": "Month → Doc Switcher", "description": "Dropdown + iframe" }
@@ -24,6 +24,7 @@
   "allowedDomains": [
     "https://docs.google.com",
     "https://*.googleusercontent.com",
-    "https://snellrojas.com"
+    "https://snellrojas.com",
+    "https://snellrojascom.github.io"
   ]
 }
