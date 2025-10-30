@@ -1,0 +1,29 @@
+{
+  "name": "Month → Doc Switcher",
+  "organization": "Snell",
+  "description": "Dropdown selects a month and shows the embedded doc.",
+  "logoUrl": "https://snellrojas.com/favicon.ico",
+  "supportUrl": "https://snellrojas.com",
+  "privacyPolicyUrl": "https://snellrojas.com/privacy",
+  "resources": [
+    { "type": "js", "url": "https://snellrojas.com/noro/index.js" }
+  ],
+  "components": [
+    { "id": "month_doc_switcher", "name": "Month → Doc Switcher", "description": "Dropdown + iframe" }
+  ],
+  "data": { "tables": [{ "id": "main", "label": "Main" }] },
+  "style": [
+    {
+      "id": "json",
+      "label": "Inline JSON (YYYY-MM → URL)",
+      "type": "TEXTAREA",
+      "defaultValue": "[{\"monthKey\":\"2025-07\",\"monthLabel\":\"July 2025\",\"doc\":\"https://docs.google.com/document/d/ID/preview\"}]"
+    },
+    { "id": "height", "label": "Iframe height (vh)", "type": "NUMBER", "defaultValue": 70 }
+  ],
+  "allowedDomains": [
+    "https://docs.google.com",
+    "https://*.googleusercontent.com",
+    "https://snellrojas.com"
+  ]
+}
